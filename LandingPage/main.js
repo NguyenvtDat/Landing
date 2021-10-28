@@ -5,7 +5,7 @@ function time() {
     w = window.innerWidth;
     if (w>=1050) {
         maxitem=4;
-    } else if (w<1050&&w>580) {
+    } else if (w<1050&&w>600) {
         maxitem=3;
     }
     else{

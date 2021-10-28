@@ -368,7 +368,8 @@ ul{
 
 .job-offer-card .des-text{
     text-align: center;
-    margin-top: 75px;
+    margin-top: 45px;
+    height: 70px;
 }
 
 .job-offer-card .des-text p{
@@ -886,6 +887,9 @@ ul{
         font-size: 14px;
         width: 90%;
         line-height: 25px;
+    }
+    .job-offer-card .status .status-time{
+        font-size: 12px;
     }
 
     .job-list .job{
