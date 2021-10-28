@@ -1,0 +1,1045 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.slogan-heading{
+    font-size: 36px;
+}
+
+.break-icon{
+    font-size: 70px;
+    line-height: 50px;
+}
+
+/* Header */
+
+.header{
+    background-color: #fff;
+    width: 100vw;
+    height: 86px;
+    position: fixed;
+    font-size: 12px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 10;
+    line-height: 86px;
+}
+
+.container{
+    height: 100%;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    width: auto;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .logo{
+    margin-top: 8px;
+}
+
+.menu-list{
+    display: none;
+}
+
+.container .nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: rgb(90, 89, 89);
+}
+
+.nav .nav-icon{
+    font-size: 8px;
+    padding-left: 4px;
+}
+
+.nav ul li{
+    margin: 0px 12px;
+}
+
+.subnav li a{
+    display: block;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    margin: 0px 5px;
+}
+
+.nav > ul li:hover .subnav{
+    display: block;
+}
+
+.nav .subnav{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    font-size: 10px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    background-color: #313131;
+    top: 80px;
+}
+
+.container .signin button{
+    background-color: red;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.signin button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Search */
+
+.search{
+    position: relative;
+    margin-top: 86px;
+    height: 694px;
+    background: url(./background/back.PNG) top center / cover no-repeat;
+}
+
+.text-content{
+    text-align: center;
+    color: #fff;
+    padding-top: 20%;
+}
+
+.text-content .heading{
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.text-content .text{
+    padding-top: 10px;
+    padding-bottom: 50px; 
+}
+
+.search .container .search-bar{
+    height: 100px;
+    width: 100%;
+    background: url(./background/searchbg.jpg) top center / cover no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.container .search-bar .input{
+    display: inline-block;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin-top: 28px;
+    margin-right: 12px ;
+    width: 28%;
+}
+
+.container .search-bar input{
+    width: 85%;
+    padding: 12px 0px;
+    border: none;
+}
+
+.container .search-bar .others-box{
+    border-style: none;
+    padding-left: 12px;
+}
+
+.container .search-bar .search-box{
+    border: none;
+}
+
+.search-bar .icon{
+    color: #000;
+    font-size: 12px;
+}
+
+.search-bar .ti-search{
+    padding-right: 8px;
+    padding-left: 12px;
+}
+
+.search-bar button{
+    width: 8%;
+    height: 40px;
+    color: #fff;
+    background-color: red;
+    border: none;
+}
+
+/* first content */
+
+.first-content .container .card-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.card-list .card{
+    width: 30%;
+    height: 200px;
+}
+
+.card-list .card1{
+    background: url(./background/bg1.jpg) top center / cover no-repeat;
+}
+
+.card-list .card2{
+    background: url(./background/bg2.png) top center / cover no-repeat;
+}
+
+.card-list .card3{
+    background: url(./background/bg3.png) top center / cover no-repeat;
+}
+
+.card .card-content{
+    width: 100%;
+    color: white;
+    margin: 20px ;
+}
+
+.card .card-content h4{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.card .card-content p{
+    font-size: 14px;
+    width: 190px;
+    line-height: 25px;
+}
+
+.card .card-content button{
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.card .card-content .btn1{
+    background-color: #32727e72;
+}
+
+.card .card-content .btn2{
+    background-color: #000000b7;
+}
+
+.card .card-content .btn3{
+    background-color: #63116e72;
+}
+
+.container .first-content-text{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container .first-content-text .heading{
+    font-size: 40px;
+}
+
+.container .first-content-text .ti-line-dotted{
+    font-size: 75px;
+}
+
+.container .job-list{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.job-list .job{
+    width: 21%;
+    height: 75px;
+    margin: 0px 5px 30px;
+    border-style: solid;
+    border-color: rgb(248, 248, 248);
+    padding: 0px 10px;
+    display: flex;
+}
+
+.job .job-icon i{
+    background-color: rgb(247, 231, 250);
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 20px;
+    line-height: 75px;
+}
+.job .job-content{
+    line-height: 100%;
+}
+
+.job .job-content .heading{
+    margin-top: 18px;
+    margin-left: 25px;
+}
+
+.job .job-content .job-text{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.job-content .job-text i{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.all-jobs-btn{
+    width: 100%;
+    text-align: center;
+}
+
+.all-jobs-btn button{
+    border-style: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* second content */
+
+.second-content{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(29, 115, 190);
+}
+
+.second-content .job-offer{
+    padding-top: 100px;
+}
+
+.job-offer .slogan-heading{
+    color: white;
+}
+
+.second-content .container .job-offer-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-offer-list .job-offer-card{
+    width: 23%;
+    background-color: white;
+    height: 412px;
+    margin: 0 auto;
+}
+
+.job-offer-card .star-icon{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: red;
+}
+
+.job-offer-card .star-icon .ti-star{
+    color: white
+}
+
+.job-offer-card .company-logo{
+    margin-top: 50px;
+    text-align: center;
+    height: 150px;
+}
+
+.job-offer-card .des-text{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.job-offer-card .des-text p{
+    font-weight:bold ;
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+.job-offer-card .status{
+    margin-top: 10px;
+    border-top: rgba(90, 54, 54, 0.01);
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.job-offer-card .status .status-time{
+    float: left;
+    margin-left: 15px;
+}
+
+.job-offer-card .status .status-liked{
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 80%;
+    background-color: red;
+}
+
+.status .status-liked .ti-heart{
+    color: white;
+}
+
+.status-time .ti-calendar{
+    display: inline-block;
+}
+
+.status-time p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.second-content .next-button{
+    border-radius: 80%;
+}
+
+.second-content .next-button .ti-angle-left{
+    float: left;
+    margin-left: 3vw;
+    margin-top: 390px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 80%;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.second-content .next-button .ti-angle-right{
+    float: right;
+    margin-right: 3vw;
+    margin-top: 390px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 80%;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Third content */
+
+.video-section{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-section .video-des{
+    width: 48%;
+}
+
+.video-section .video{
+    width: 50%;
+}
+
+.video-section .video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.video-des .des-words p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.video-section .video-btn{
+    display: inline-block;
+    background-color: salmon;
+}
+
+.video-section .video-btn .video-icon{
+    display: inline-block;
+    margin: 0;
+    padding:5px;
+    background-color: red;
+    color: white;
+}
+
+.video-section .video-btn .watch-video{
+    display: inline-block;
+    padding:5px;
+    margin: 0;
+    background-color: salmon;
+    color: white;
+}
+
+.news-section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.news-card-list{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card-list .news-card{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    height: 206px;
+}
+
+.news-card .news-card-content{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.news-card-img img{
+    width: auto;
+    height: 100%;
+}
+
+
+.news-card-des p{
+    line-height: 25px;
+    height: 50px;
+}
+
+.social-media{
+    margin-top: 30px;
+}
+
+.social-media .ti-facebook{
+    color: blue;
+    padding: 6px;
+    border-style: solid;
+    line-height: 28px;
+    border-radius: 50%;
+    border-width: 1px;
+}
+
+.social-media .ti-twitter {
+    color: rgb(55, 162, 224);
+    padding: 6px;
+    border-style: solid;
+    line-height: 28px;
+    border-radius: 50%;
+    border-width: 1px;
+    
+}
+.social-media .ti-google{
+    color: rgb(246, 63, 109);
+    padding: 6px;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 28px;
+    border-radius: 50%;
+}
+.social-media .ti-youtube{
+    color: rgb(248, 2, 2);
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 28px;
+    border-radius: 50%;
+    
+}
+.social-media li{
+    float: left;
+    padding: 0px 6px;
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+.news-card-social .date{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* forth content */
+
+.forth-content{
+    margin-top: 100px;
+    background: url(./background/searchbg.jpg) center top / cover no-repeat;
+    height: 100%;
+}
+
+.static-section{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.static-section .slogan-heading{
+    color: white;
+}
+
+.static-number{
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.vertical-line{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.1px;
+    height: 50px;
+    border-color: rgb(78, 145, 190);
+}
+
+.live-static{
+    display: inline-block;
+    margin: 45px 40px;
+    width: 145px;
+}
+
+.live-static .number{
+    font-size: 41px;
+    color: rgb(167, 34, 34);
+    font-weight: 700;
+}
+
+.live-static .static-name{
+    color: white;
+    font-size: 14px;
+}
+
+/* fifth content */
+
+.company-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.company-card-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.company-card{
+    text-align: center;
+    width: 12%;
+    background-color: rgb(252, 249, 253);
+    padding: 10px 0px;
+    margin: 5px 18px;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 100px;
+    background-color: rgb(45, 62, 80);
+    height: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.footer-content .related{
+    width: 30%;
+}
+
+.related h4{
+    text-transform: uppercase;
+    font-size: 20;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.related p{
+    color: #ccc;
+    line-height: 30px;
+}
+
+.related .social-network{
+    color: salmon;
+}
+
+.social-network li{
+    display: inline-block;
+    padding: 10px;
+    margin: 30px 5px 0;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.related .email{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email input{
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.email i{
+    border-style: solid;
+    margin-right: 30px;
+    margin-left: 5px;
+    border-width: 0.1px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: salmon;
+}
+
+.footer-line{
+    margin-top: 30px;
+    border-color: rgb(45, 62, 80);
+}
+
+.last-question{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.last-question p{
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 1px;
+    color: white;
+}
+
+.back-to-top{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.back-to-top div{
+    display: inline-block;
+}
+
+.back-to-top .ti-arrow-circle-up{
+    background-color: red;
+    border-radius: 50% ;
+    font-size: 20px;
+}
+
+.copy-right{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.back-to-top hr{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+    border-color: rgb(45, 62, 80);
+}
+
+/* Responsive */
+
+
+@media only screen and (max-width: 1480px) {
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+    }
+
+    .second-content .next-button {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        width: auto;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .signin{
+        display: flex;
+    }
+
+    .menu-list{
+        display: block;
+        width: fit-content;
+    }
+
+    .menu-icon{
+        margin-left: 5px;
+        line-height: 88px;
+    }
+
+    .menu-nav{
+        position: absolute;
+        display: none;
+    }
+
+    .menu-nav-list{
+        position: relative;
+        right:200px;
+        background-color: rgb(31, 31, 31);
+        bottom:30px;
+        height: 170px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+
+    .menu-nav-list li{
+        width: 235px;
+        line-height: 25px;
+    }
+
+    .menu-list:hover .menu-nav{
+        display: block;
+    }
+
+    .menu-nav-name{
+        float: left;
+        width: 200px;
+        line-height: 28px;
+        margin-left: 10px;
+        color: rgb(200, 200, 200);
+    }
+
+    .menu-nav-list .plus-sign{
+        float: right;
+        line-height: 23px;
+        margin-right: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(200, 200, 200);
+    }
+
+    .menu-icon i{
+        padding: 9px;
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+
+    .container .search-bar .input{
+        display: block;
+        width: 97%;
+        margin-top: 12px;
+        margin-left: 10px;
+        
+    }
+
+    .container .search-bar input{
+        width: 93%;
+        padding: 12px 0px;
+        border: none;
+    }
+
+    .search .container .search-bar{
+        height: 220px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .search-bar button{
+        margin-top: 12px;
+        margin-left: 9px;
+        width: 97%;
+    }
+
+    .first-content .container .card-list{
+        display: flex;
+        flex-flow: column;
+        margin-top: 120px;
+    }
+
+    .card-list .card{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .card .card-content p{
+        font-size: 14px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .job-list .job{
+        width: 44%;
+    }
+
+    .second-content .next-button{
+        display: none;
+    }
+
+    .news-card-list .news-card{
+        width: 100%;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .live-static{
+       margin: 20px 90px 0px;
+    }
+
+    .company-card{
+        width: 25%;
+    }
+
+    .job-offer-list .job-offer-card{
+        width: 31%;
+        background-color: white;
+        height: 412px;
+    }
+
+    .footer-content{
+        display: flex;
+        padding-top: 60px;
+        flex-wrap: wrap;
+    }
+
+    .footer-content .related{
+        width: 40%;
+        margin: 10px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .container{
+        margin: 0px;
+    }
+    
+    .container .search-bar .input{
+        width: 88%;
+        margin-left: 20px;
+    }
+
+    .container .search-bar input{
+        width: 85%;
+        padding: 12px 0px;
+        border: none;
+    }
+
+    .search-bar button{
+        margin-top: 12px;
+        margin-left: 20px;
+        width: 88%;
+    }
+
+    .card .card-content p{
+        font-size: 12px;
+        width: 180px;
+        line-height: 25px;
+    }
+
+    .job-list .job{
+        width: 100%;
+    }
+
+    .job-offer-list .job-offer-card{
+        width: 99%;
+        background-color: white;
+        height: 412px;
+    }
+
+    .video-section{
+        margin-top:100px;
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .video-section .video-des{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .video-section .video{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .news-card-list{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+    }
+
+    .news-card-list .news-card{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        border-style: solid;
+        border-color: rgb(218, 218, 218);
+        height: 100%;
+    }
+
+    .news-card-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .social-media li{
+        float: left;
+        line-height: 25px;
+        margin-right: 2px;
+        margin-top: 25px;
+    }
+    
+    .news-card-social .date{
+        float: right;
+        margin-right: 1px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+
+    .company-card{
+        width: 40%;
+    }
+
+    .footer-content .related{
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+
