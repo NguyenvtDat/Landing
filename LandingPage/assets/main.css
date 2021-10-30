@@ -58,10 +58,13 @@ ul{
 
 .container .nav > ul{
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+    float: right;
     text-transform: uppercase;
     color: rgb(90, 89, 89);
+}
+
+.nav{
+    width: 80%;
 }
 
 .nav .nav-icon{
@@ -71,6 +74,7 @@ ul{
 
 .nav ul li{
     margin: 0px 12px;
+    float: left;
 }
 
 .subnav li a{
@@ -566,9 +570,9 @@ ul{
 }
 .social-media li{
     float: left;
-    padding: 0px 6px;
+    padding: 0px 1%;
     line-height: 28px;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 .news-card-social .date{
@@ -688,6 +692,11 @@ ul{
     border-width: 0.5px;
 }
 
+.social-network li a{
+    color: salmon;
+    text-decoration: none;
+}
+
 .related .email{
     margin-top: 20px;
     display: flex;
@@ -696,13 +705,14 @@ ul{
 
 .email input{
     height: 45px;
-    width: 300px;
-    border-radius: 15px;
+    width: 85%;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .email i{
     border-style: solid;
-    margin-right: 30px;
+    
     margin-left: 5px;
     border-width: 0.1px;
     padding: 14px;
@@ -754,6 +764,10 @@ ul{
     width: 150px;
     margin-bottom: 5px;
     border-color: rgb(45, 62, 80);
+}
+
+.copy-right a{
+    color: red;
 }
 
 /* Responsive */
@@ -938,7 +952,8 @@ ul{
 @media only screen and (max-width:600px) {
 
     .container{
-        margin: 0px;
+        width: 95%;
+        margin: 0 auto;
     }
     
     .container .search-bar .input{
@@ -1033,7 +1048,7 @@ ul{
     }
 
     .company-card{
-        width: 40%;
+        width: 38%;
     }
 
     .footer-content .related{
