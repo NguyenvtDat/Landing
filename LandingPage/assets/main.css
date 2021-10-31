@@ -74,7 +74,7 @@ ul{
 
 .nav ul li{
     margin: 0px 12px;
-    float: left;
+    float: right;
 }
 
 .subnav li a{
@@ -88,7 +88,8 @@ ul{
 }
 
 .nav > ul li:hover .subnav{
-    display: block;
+    display: flex;
+    flex-flow: column;
 }
 
 .nav .subnav{
