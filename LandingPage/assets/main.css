@@ -671,6 +671,15 @@ ul{
 .footer-content .related{
     width: 30%;
 }
+.related .question li{
+    display: flex;
+}
+
+.question li i{
+    font-size: 10px;
+    line-height: 30px;
+    margin-right: 4px;
+}
 
 .related h4{
     text-transform: uppercase;
@@ -766,7 +775,7 @@ ul{
 
 .back-to-top hr{
     display: inline-block;
-    width: 150px;
+    width: 120px;
     margin-bottom: 5px;
     border-color: rgb(45, 62, 80);
 }
@@ -788,7 +797,6 @@ ul{
     .second-content .next-button {
         display: none;
     }
-    
 }
 
 @media only screen and (max-width: 1024px) {
@@ -839,12 +847,16 @@ ul{
         display: block;
     }
 
+    .menu-nav-name a{
+        text-decoration: none;
+        color: rgb(200, 200, 200);
+    }
+
     .menu-nav-name{
         float: left;
         width: 200px;
         line-height: 28px;
         margin-left: 10px;
-        color: rgb(200, 200, 200);
     }
 
     .menu-nav-list .plus-sign{
@@ -869,7 +881,6 @@ ul{
         width: 97%;
         margin-top: 12px;
         margin-left: 10px;
-        
     }
 
     .container .search-bar input{
@@ -907,6 +918,7 @@ ul{
         width: 90%;
         line-height: 25px;
     }
+    
     .job-offer-card .status .status-time{
         font-size: 12px;
     }
