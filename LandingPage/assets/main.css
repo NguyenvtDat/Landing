@@ -323,6 +323,10 @@ ul{
     border-radius: 8px;
 }
 
+.all-jobs-btn button i{
+    font-size: 10px;
+}
+
 /* second content */
 
 .second-content{
