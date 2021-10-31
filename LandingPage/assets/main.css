@@ -679,6 +679,7 @@ ul{
     font-size: 10px;
     line-height: 30px;
     margin-right: 4px;
+    color: white;
 }
 
 .related h4{
@@ -726,12 +727,11 @@ ul{
 
 .email i{
     border-style: solid;
-    
     margin-left: 5px;
     border-width: 0.1px;
     padding: 14px;
     border-radius: 50%;
-    background-color: salmon;
+    background-color: rgb(241, 73, 54);
 }
 
 .footer-line{
@@ -767,6 +767,9 @@ ul{
 }
 
 .copy-right{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 10px;
     text-align: center;
     color: white;
@@ -918,7 +921,7 @@ ul{
         width: 90%;
         line-height: 25px;
     }
-    
+
     .job-offer-card .status .status-time{
         font-size: 12px;
     }
@@ -1072,6 +1075,10 @@ ul{
         width: 90%;
     }
 
+    .copy-right{
+        margin: 0 auto;
+        width: 100%;
+    }
 
 
 }
